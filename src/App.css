@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -36,3 +37,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+  .window-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .close-icon {
+    display: inline-block;
+    transform: rotateZ(45deg);
+    position: relative;
+  }
+  .window {
+    width: 400px;
+    min-height: 200px;
+  }
+  .window:nth-child(2) {
+    margin: 2rem;
+  }
+  .footer {
+    display: block;
+    margin: 0.25rem;
+    height: 31px;
+    line-height: 31px;
+    padding-left: 0.25rem;
+  }
+
